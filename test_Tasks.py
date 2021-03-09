@@ -1,5 +1,6 @@
 import Tasks
 
+
 class TestTasks:
     def test_fizz(self):
         assert Tasks.fizzbuzz(3) == 'Fizz'
@@ -11,4 +12,6 @@ class TestTasks:
         assert Tasks.fizzbuzz(15) == 'FizzBuzz'
 
 
-
+class TestTaskSquareEquation:
+    def test_square_equation(self):
+        assert Tasks.square_equation(1, 0, -1) == 2
